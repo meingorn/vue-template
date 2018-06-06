@@ -1,11 +1,7 @@
 <template>
   <div>
-    <router-link  tag="li" to="/">
-      <a>Dropdown</a>
-    </router-link>
-    <router-link  tag="li" to="hello">
-      <a>Vue Links</a>
-    </router-link>
+  
+    <slot></slot>
   </div>
 </template>
 

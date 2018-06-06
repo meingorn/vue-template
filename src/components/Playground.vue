@@ -11,10 +11,12 @@
     <textarea v-model="message" placeholder="add multiple lines"></textarea>
     <span>Multiline message is:</span>
     <p style="white-space: pre-line;">{{ message }}</p>
+    <Form> <p>hi i'm testing slots</p> </Form>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'Playground',
   data() {
