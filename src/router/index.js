@@ -4,6 +4,8 @@ import DraggableTable from '@/components/DraggableTable';
 import HelloWorld from '@/components/HelloWorld';
 import Playground from '@/components/Playground';
 import About from '@/components/About';
+import VueSimpleSuggest from '@/components/VueSimpleSuggest';
+import VueInstant from '@/components/VueInstant';
 
 Vue.use(Router);
 
@@ -13,6 +15,16 @@ export default new Router({
       path: '/',
       name: 'DraggableTable',
       component: DraggableTable,
+    },
+    {
+      path: '/inputs',
+      name: 'VueSimpleSuggest',
+      component: VueSimpleSuggest,
+    },
+    {
+      path: '/vueinstant',
+      name: 'VueInstant',
+      component: VueInstant,
     },
     {
       path: '/playground',

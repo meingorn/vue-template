@@ -9,6 +9,12 @@
       <router-link to="/">
         <a>Home</a>
       </router-link>
+      <router-link to="inputs">
+        <a>VueSimpleSuggest</a>
+      </router-link>
+      <router-link to="vueinstant">
+        <a>VueInstant</a>
+      </router-link>
       <router-link to="playground">
         <a>Playground</a>
       </router-link>
@@ -41,12 +47,12 @@ a {
 }
 
 .logo {
-float: left;
+  float: left;
   margin-left: 30px;
 }
 
 .nav--container {
-  background-color: #8EE3EF;
+  background-color: #8ee3ef;
   min-height: 6vh;
   padding-top: 20px;
 }
