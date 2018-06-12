@@ -6,15 +6,21 @@ import Playground from '@/components/Playground';
 import About from '@/components/About';
 import VueSimpleSuggest from '@/components/VueSimpleSuggest';
 import VueInstant from '@/components/VueInstant';
+import Datepicker from '@/components/Datepicker';
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/DraggableTable',
       name: 'DraggableTable',
       component: DraggableTable,
+    },
+    {
+      path: '/',
+      name: 'Datepicker',
+      component: Datepicker,
     },
     {
       path: '/inputs',

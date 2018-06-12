@@ -12,11 +12,11 @@
     <span>Multiline message is:</span>
     <p style="white-space: pre-line;">{{ message }}</p>
     <Form> <p>hi i'm testing slots</p> </Form>
+    <input id="date" type="date">
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'Playground',
   data() {
@@ -33,5 +33,4 @@ export default {
 .playground--container {
   margin-top: 10px;
 }
-
 </style>
